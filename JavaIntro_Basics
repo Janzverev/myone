@@ -1,0 +1,14 @@
+public class Less2 {
+    public static void main(String[] args) {
+
+        double x = 598.712;
+        double z = ((x*1000) % 1000); // 712
+        double z2 = x - (z/1000); // 598
+        double z3 = z + (z2/1000); // 712 + (598/1000)
+
+        System.out.println(z3);
+
+    }
+
+
+}
